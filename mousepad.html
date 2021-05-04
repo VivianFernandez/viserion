@@ -13,98 +13,92 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
     <!--Styles css-->
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
     <title>VISERION</title>
     <!--icono de la pagina-->
-    <link rel="shortcut icon" href="./assets/img/perfil.jpg">
+    <link rel="shortcut icon" href="./assets/img/perfilv.jpg">
 </head>
 
 <body>
-  <!--Header-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">
-            <img src="./assets/img/logopng.png" alt="" width="150">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex position-absolute top-50 start-50 translate-middle">
-                <input class="form-control me-2 " type="search" placeholder="Buscar un producto"
-                    aria-label="Search">
-                <button class="btn btn-outline-info" type="submit"><i class="fas fa-search"></i></button>
-            </form>
+    <!-- HEADER -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #2D1855 !important; ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="img_nav" src="./assets/img/logopng.png">
+            </a>
+            <button class="navbar-toggler" type="button" style="background-color: #9774DB !important; color: #8158C4;"
+                data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar un producto" aria-label="Search">
+                    <button class="btn" type="submit" style="background-color: #9774DB !important;"><i
+                            class="fas fa-search"></i></button>
+                </form>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html"><i class="fas fa-home"></i> Inicio</a>
+                    <a class="nav-link" href="./login-register.html"><i class="fas fa-user"></i> Usuario</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bars"></i> Categorías
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu" style="background-color: #9774DB !important;"
+                        aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="categorias.html"><strong>Ver todas...</strong></a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./audifonos.html">Audífonos</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./iluminacion.html">Iluminación ambiente</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./monitores.html">Monitores</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./mouse.html">Mouse</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./mousepad.html">Mouse Pad</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./sillas.html">Sillas Gamer</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./teclados.html">Teclados Gamer</a></li>
+                    </ul>
+                    <a class="nav-link " href="./carrito.html"><i class="fas fa-shopping-cart"></i> Compras</a>
+                </div>
+            </div>
         </div>
-        <ul class=" navbar-nav me-auto mb-2 mb-lg-0 end-0 d-flex gap-lg-2">
-            <li class="nav-item">
-                <a class="nav-link" href="./index.html"><i class="fas fa-home"></i> Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./login-register.html"><i class="fas fa-user"></i> Usuario</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fas fa-bars"></i> Categorías
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="./audifonos.html">Audífonos</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="./iluminacion.html">Iluminación ambiente</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="./monitores.html">Monitores</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="./mouse.html">Mouse</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="./mousepad.html">Mouse Pad</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="./sillas.html">Sillas Gamer</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="./teclados.html">Teclados Gamer</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="./carrito.html"><i class="fas fa-shopping-cart"></i> Compras</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
+    </nav>
     <!--BODY-->
     <div class="d-flex justify-content-center mt-lg-3 mb-lg-3">
-        <img src="./assets/img/bmousep.jpg" alt="" style="width: 45%;">
+        <img class="banner__cat" src="./assets/img/bmousep.jpg">
     </div>
-
-
-    <!--cards-->
-    <div class="d-flex">
-        <div class="d-flex flex-column bg-white"
-            style="width: 20%; margin-left: 20px; padding: 20px 50px; height: 100%; border-radius: 9px; box-shadow: 2px 2px 2px 1px rgba(56, 48, 105, 0.4);">
+    <!-- filtro -->
+    <div class="filtro__container d-flex flex-column ">
+        <div class="filtro d-flex flex-column bg-white">
             <label for="">
                 <h4>FILTRO:</h4>
             </label>
-            <div class="mt-2" style="padding: 0px 20px;">
-                <input type="checkbox"> Marca 1 <br>
-                <input type="checkbox"> Marca 1 <br>
-                <input type="checkbox"> Marca 1 <br>
-                <input type="checkbox"> Marca 1
+            <div class="filtro__marcas d-flex mt-2" style="padding: 0px 20px;">
+                <input type="checkbox"> LogitechG<br>
+                <input type="checkbox"> Corsair <br>
+                <input type="checkbox"> HyperX
             </div>
         </div>
+        <!--cards-->
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-4">
@@ -217,23 +211,22 @@
             </div>
         </div>
     </div>
-
-
-    <!--Footer-->
-    <div class="footer-basic bg-dark text-white">
-        <footer>
-            <div class="social"><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i
-                        class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a>
+    <!-- footer -->
+    <div>
+        <div class="footer__container bd-grid">
+            <div class="footer__social">
+                <a href="#" class="footer__social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer__social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="footer__social-icon"><i class="fab fa-instagram"></i></a>
             </div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="./index.html">Inicio</a></li>
-                <li class="list-inline-item"><a href="./login-register.html">Usuario</a></li>
-                <li class="list-inline-item"><a href="#">Categorías</a></li>
-                <li class="list-inline-item"><a href="./carrito.html">Compras</a></li>
-
-            </ul>
-            <p class="copyright">VISERION © 2021</p>
-        </footer>
+            <div class="menu mt-4">
+                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="login-register.html">Usuario</a>
+                <a class="nav-link" href="categorias.html">Categorías</a>
+                <a class="nav-link" href="carrito.html">Compras</a>
+            </div>
+            <p class="copy mt-4"> VISERION &#169; 2021 All rights reserved</p>
+        </div>
     </div>
 
     <!--scripts-->
